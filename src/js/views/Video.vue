@@ -27,7 +27,7 @@ onMounted(async () => {
 
 const videoSrc = computed(() => {
   const lang = languageStore.current
-  return `arenenberger-vielfalt-${lang}.mp4`
+  return `arenenberger-vielfalt-de.mp4`
 })
 
 const handleVideoEnd = () => {
